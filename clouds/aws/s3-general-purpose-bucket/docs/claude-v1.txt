@@ -1,0 +1,12 @@
+Project Plan - S3 General purpose
+=================================
+
+1. generate a S3 General purpose terraform file with the following requirement parameters
+   - bucket type is "General purpose bucket"
+   - an option allows the public or private access
+2. build Makefile for the terraform init, plan, and destroy.  
+3. "Makefile clean" is to destroy all AWS resources if they are created and remove files and directory created by terraform with:
+   - ensure the s3 bucket is empty. If not empty, remove everything directly.
+   - included "-auto-approve"
+4. update PLAN.md
+
