@@ -1,0 +1,14 @@
+Project Plan - VPC 
+==================
+
+1. generate a VPC terraform file with the following requirement parameters:
+   - based on the specific region
+   - the vpc will be landed in the specific cidr
+   - two public and private subnets will be created, two public subnets will be in the different available zones and two private subnets will be in the different availablity zones
+   - the route table will have entries to be added for routing both public and private subnets
+   - an internet gateway will be created to handle the access between VPC and intenet
+   - a security group with the inbound/outbound rules created for the public access, and attahced to VPC 
+2. build Makefile for the terraform init, plan, and destroy.  
+3. "Makefile clean" is to destroy all AWS resources if they are created and remove files and directory created by terraform
+4. update PLAN.md
+
