@@ -1,2 +1,2 @@
 # Terraform works
-A collection about the terraform tasks.
+A collection of the terraform works in clouds or others.
